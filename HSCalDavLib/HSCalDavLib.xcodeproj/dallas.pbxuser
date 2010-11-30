@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC07D0554694100DB518D /* HSCalDavLib */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* HSCalDavLib */,
+		);
+		codeSenseManager = 8EBAE7DC12A5A43000960082 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					2113,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					2073,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312849907;
+			PBXWorkspaceStateSaveDate = 312849907;
+		};
+		perUserProjectItems = {
+			8EBAE8E412A5B60A00960082 /* PBXTextBookmark */ = 8EBAE8E412A5B60A00960082 /* PBXTextBookmark */;
+			8EBAE8E512A5B60A00960082 /* PBXTextBookmark */ = 8EBAE8E512A5B60A00960082 /* PBXTextBookmark */;
+			8EBAE8E612A5B60A00960082 /* PBXBookmark */ = 8EBAE8E612A5B60A00960082 /* PBXBookmark */;
+			8EBAE8E712A5B60A00960082 /* PBXTextBookmark */ = 8EBAE8E712A5B60A00960082 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8EBAE7DB12A5A43000960082 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* HSCalDavLib_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2291, 1046}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 154}";
+		};
+	};
+	8EBAE7DB12A5A43000960082 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8EBAE7DC12A5A43000960082 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8EBAE7DE12A5A4B400960082 /* HSCalDav.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2291, 1046}}";
+			sepNavSelRange = "{299, 70}";
+			sepNavVisRange = "{0, 377}";
+		};
+	};
+	8EBAE7DF12A5A4B400960082 /* HSCalDav.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2291, 1046}}";
+			sepNavSelRange = "{97, 19}";
+			sepNavVisRange = "{0, 348}";
+		};
+	};
+	8EBAE8E412A5B60A00960082 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF5E0370ADEE00C91783 /* HSCalDavLib_Prefix.pch */;
+		name = "HSCalDavLib_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 154;
+		vrLoc = 0;
+	};
+	8EBAE8E512A5B60A00960082 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EBAE7DF12A5A4B400960082 /* HSCalDav.m */;
+		name = "HSCalDav.m: 6";
+		rLen = 19;
+		rLoc = 97;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 0;
+	};
+	8EBAE8E612A5B60A00960082 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8EBAE7DE12A5A4B400960082 /* HSCalDav.h */;
+	};
+	8EBAE8E712A5B60A00960082 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8EBAE7DE12A5A4B400960082 /* HSCalDav.h */;
+		name = "HSCalDav.h: 19";
+		rLen = 70;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	D2AAC07D0554694100DB518D /* HSCalDavLib */ = {
+		activeExec = 0;
+	};
+}

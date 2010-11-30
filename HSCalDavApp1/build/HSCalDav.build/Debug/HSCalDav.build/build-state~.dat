@@ -1,0 +1,232 @@
+THSCalDav
+v7
+r0
+t312848867.854459
+cCheck dependencies
+cProcessInfoPlistFile /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Info.plist HSCalDav-Info.plist
+cCopyStringsFile /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch.gch HSCalDav_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/main.o /Users/dallas/Code/HSCalDav/HSCalDav/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDavAppDelegate.o /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav normal x86_64
+cTouch /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CEAD71F00000000000000EE
+t1290458911
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/InfoPlist.strings
+c000000004CF56F18000000000000002D
+t1291153176
+s45
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib
+c000000004CF56F18000000000002BB76
+t1291153176
+s179062
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.h
+c000000004CF579080000000000000164
+t1291155720
+s356
+i<Cocoa/Cocoa.h>
+i"HSCalDav.h"
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m
+c000000004CF574570000000000000171
+t1291154519
+s369
+i"HSCalDavAppDelegate.h"
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav_Prefix.pch
+c000000004CF56F180000000000000093
+t1291153176
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app
+t1291156067
+s102
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Info.plist
+t1291156065
+s889
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav
+t1291156067
+s14648
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/PkgInfo
+t1291156065
+s8
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1291156065
+s92
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/MainMenu.nib
+t1291156065
+s34396
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDav.LinkFileList
+c000000004CF57A6100000000000000E7
+t1291156065
+s231
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDavAppDelegate.o
+t1291156067
+s21432
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/main.o
+t1291156067
+s4984
+
+N/Users/dallas/Code/HSCalDav/HSCalDav/main.m
+c000000004CF56F1900000000000000FB
+t1291153177
+s251
+i<Cocoa/Cocoa.h>
+
+N/Users/dallas/Code/HSCalDav/HSCalDavLib/HSCalDav.h
+c000000004CF56D6A0000000000000131
+t1291152746
+s305
+i<Cocoa/Cocoa.h>
+
+N/Users/dallas/Code/HSCalDav/HSCalDavLib/build/Debug/libHSCalDav.a
+c000000004CF57A4A0000000000001D48
+t1291156042
+s7496
+
+N/var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-cjcdusfxvjwxrsdtoewtrehlxmaa/HSCalDav_Prefix.pch.gch
+t1291155920
+s54306576
+
+N/var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch.gch
+t1291156067
+s54306576
+
+N/var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-ehcemjnulembpcbrgflcqssslcui/HSCalDav_Prefix.pch.gch
+t2
+s0
+
+NHSCalDav-Info.plist
+c000000004CF56F1800000000000003EA
+t1291153176
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312848865#312848865#0(0"0(0#1#0"8617135616#0"0#
+
+CCompileC build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDavAppDelegate.o /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312848867.351647
+e312848867.442871
+r1
+xCompileC
+xbuild/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDavAppDelegate.o
+x/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m312848867#312848867#0(0"0(0#0#58"/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m8638657984#1500"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-generated-files.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-own-target-headers.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-all-target-headers.hmap -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-project-headers.hmap -F/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -iquote../HSCalDavLib -I/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/include -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources/x86_64 -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources -include /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch -c /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDavAppDelegate.m -o /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDavAppDelegate.o0#
+
+CCompileC build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/main.o /Users/dallas/Code/HSCalDav/HSCalDav/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312848867.350930
+e312848867.435181
+r1
+xCompileC
+xbuild/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/main.o
+x/Users/dallas/Code/HSCalDav/HSCalDav/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/dallas/Code/HSCalDav/HSCalDav/main.m312848867#312848867#0(0"0(0#0#43"/Users/dallas/Code/HSCalDav/HSCalDav/main.m8638958912#1470"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-generated-files.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-own-target-headers.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-all-target-headers.hmap -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-project-headers.hmap -F/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -iquote../HSCalDavLib -I/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/include -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources/x86_64 -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources -include /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch -c /Users/dallas/Code/HSCalDav/HSCalDav/main.m -o /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib
+s312848865.398892
+e312848865.600843
+r1
+xCompileXIB
+x/Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib312848865#312848865#0(0"0(0#0#63"/Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib8640567616#359"    cd /Users/dallas/Code/HSCalDav/HSCalDav    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/MainMenu.nib /Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s312848865.397680
+e312848865.417298
+r1
+xCopyStringsFile
+x/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312848865#312848865#0(0"0(0#0#68"/Users/dallas/Code/HSCalDav/HSCalDav/English.lproj/InfoPlist.strings8632277600#362"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Resources/English.lproj0#
+
+CLd /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav normal x86_64
+s312848867.442940
+e312848867.839041
+r1
+xLd
+x/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav
+xnormal
+xx86_64
+lSLF07#2@90"Link /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav312848867#312848867#0(0"0(0#0#0"8638316864#603"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -F/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -filelist /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/Objects-normal/x86_64/HSCalDav.LinkFileList -mmacosx-version-min=10.6 /Users/dallas/Code/HSCalDav/HSCalDavLib/build/Debug/libHSCalDav.a -framework Cocoa -o /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/MacOS/HSCalDav0#
+
+CProcessInfoPlistFile /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Info.plist HSCalDav-Info.plist
+s312848865.390094
+e312848865.397493
+r1
+xProcessInfoPlistFile
+x/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Info.plist
+xHSCalDav-Info.plist
+lSLF07#2@27"Process HSCalDav-Info.plist312848865#312848865#0(0"0(0#0#56"/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav-Info.plist8609665280#307"    cd /Users/dallas/Code/HSCalDav/HSCalDav    builtin-infoPlistUtility HSCalDav-Info.plist -genpkginfo /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-cjcdusfxvjwxrsdtoewtrehlxmaa/HSCalDav_Prefix.pch.gch HSCalDav_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312848718.861976
+e312848720.555528
+r1
+xProcessPCH
+x/var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-cjcdusfxvjwxrsdtoewtrehlxmaa/HSCalDav_Prefix.pch.gch
+xHSCalDav_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HSCalDav_Prefix.pch312848718#312848720#0(0"0(0#0#56"/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav_Prefix.pch8638021984#1380"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-generated-files.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-own-target-headers.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-all-target-headers.hmap -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-project-headers.hmap -F/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -iquote../HSCalDavLib/** -I/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/include -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources/x86_64 -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources -c /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav_Prefix.pch -o /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-cjcdusfxvjwxrsdtoewtrehlxmaa/HSCalDav_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch.gch HSCalDav_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312848865.600961
+e312848867.350745
+r1
+xProcessPCH
+x/var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch.gch
+xHSCalDav_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HSCalDav_Prefix.pch312848865#312848867#0(0"0(0#0#56"/Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav_Prefix.pch8636657664#1377"    cd /Users/dallas/Code/HSCalDav/HSCalDav    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-generated-files.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-own-target-headers.hmap -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-all-target-headers.hmap -iquote /Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/HSCalDav-project-headers.hmap -F/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug -iquote../HSCalDavLib -I/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/include -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources/x86_64 -I/Users/dallas/Code/HSCalDav/HSCalDav/build/HSCalDav.build/Debug/HSCalDav.build/DerivedSources -c /Users/dallas/Code/HSCalDav/HSCalDav/HSCalDav_Prefix.pch -o /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-drljkcgfotzyohcomimnauzmhaaj/HSCalDav_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/nf/nfSXTfGEEeSF47Ssry3CWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HSCalDav_Prefix-ehcemjnulembpcbrgflcqssslcui/HSCalDav_Prefix.pch.gch HSCalDav_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app
+s312848867.839100
+e312848867.854438
+r1
+xTouch
+x/Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app
+lSLF07#2@67"Touch /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app312848867#312848867#0(0"0(0#0#0"8637493792#128"    cd /Users/dallas/Code/HSCalDav/HSCalDav    /usr/bin/touch -c /Users/dallas/Code/HSCalDav/HSCalDav/build/Debug/HSCalDav.app0#
+

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HSCalDavApp' target in the 'HSCalDavApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

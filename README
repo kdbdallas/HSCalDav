@@ -1,0 +1,26 @@
+HSCalDav
+-----------------
+
+HSCalDav is a CalDav library written in Objective-C and taking advantage of Apple's Cocoa Frameworks.
+
+Development of HSCalDav is a joint collaboration between Dallas Brown of HashBang Industries (http://www.HashBangInd.com) and Justin Williams of Second Gear Software (http://www.secondgearsoftware.com).
+
+-----------------
+
+HSCalDav is Open Source and licensed under the Creative Commons - Attribution 3.0 Unported License.
+For a human-readable summary of the Legal Code, please visit http://creativecommons.org/licenses/by/3.0/
+The entire lawyer version of the license can be read at: http://creativecommons.org/licenses/by/3.0/legalcode
+
+The basics of the license are the following (but please make sure to visit the above links for more information):
+
+You are free:
+	to Share — to copy, distribute and transmit the work
+	to Remix — to adapt the work
+
+Under the following conditions:
+	Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+	The placement and format of the credit is up to you, but we prefer the credit to be in the software’s "About" window. Alternatively, you could put the credit in the software’s documentation, or on the web page for the product.
+	The suggested format for the attribution is: Includes the HSCalDav library by HashBang Industries and Second Gear Software.
+	Where possible, please link the text "HashBang Industries" to the URL (http://www.HashBangInd.com) and the text "Second Gear Software" to the URL (http://www.secondgearsoftware.com), or include the URLs in your attribution text.
+
+Notice — For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to http://creativecommons.org/licenses/by/3.0/.
