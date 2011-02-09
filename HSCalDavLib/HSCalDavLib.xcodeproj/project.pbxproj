@@ -3,249 +3,425 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EBAE7E012A5A4B400960082 /* HSCalDav.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBAE7DE12A5A4B400960082 /* HSCalDav.h */; };
-		8EBAE7E112A5A4B400960082 /* HSCalDav.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAE7DF12A5A4B400960082 /* HSCalDav.m */; };
-		D2AAC088055469A000DB518D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8E74BFAC1302D8D100E20061 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74BFAB1302D8D100E20061 /* Cocoa.framework */; };
+		8E74BFBA1302D8D100E20061 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74BFAB1302D8D100E20061 /* Cocoa.framework */; };
+		8E74BFBD1302D8D100E20061 /* libHSCalDAVLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74BFA81302D8D100E20061 /* libHSCalDAVLib.a */; };
+		8E74BFC31302D8D100E20061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E74BFC11302D8D100E20061 /* InfoPlist.strings */; };
+		8E74BFC61302D8D100E20061 /* HSCalDAVLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E74BFC51302D8D100E20061 /* HSCalDAVLibTests.h */; };
+		8E74BFC81302D8D100E20061 /* HSCalDAVLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74BFC71302D8D100E20061 /* HSCalDAVLibTests.m */; };
+		8EC275DE1302DBD50081ED97 /* HSCalDAV.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC275DC1302DBD50081ED97 /* HSCalDAV.h */; };
+		8EC275DF1302DBD50081ED97 /* HSCalDAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC275DD1302DBD50081ED97 /* HSCalDAV.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E74BFBB1302D8D100E20061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E74BF9F1302D8D100E20061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E74BFA71302D8D100E20061;
+			remoteInfo = HSCalDAVLib;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF5E0370ADEE00C91783 /* HSCalDavLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalDavLib_Prefix.pch; sourceTree = "<group>"; };
-		8EBAE7DE12A5A4B400960082 /* HSCalDav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalDav.h; sourceTree = "<group>"; };
-		8EBAE7DF12A5A4B400960082 /* HSCalDav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalDav.m; sourceTree = "<group>"; };
-		D2AAC07E0554694100DB518D /* libHSCalDav.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSCalDav.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F7E8BE07B2D77200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		8E74BFA81302D8D100E20061 /* libHSCalDAVLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSCalDAVLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E74BFAB1302D8D100E20061 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8E74BFAE1302D8D100E20061 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E74BFAF1302D8D100E20061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E74BFB01302D8D100E20061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E74BFB31302D8D100E20061 /* HSCalDAVLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSCalDAVLib-Prefix.pch"; sourceTree = "<group>"; };
+		8E74BFB91302D8D100E20061 /* HSCalDAVLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSCalDAVLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E74BFC01302D8D100E20061 /* HSCalDAVLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HSCalDAVLibTests-Info.plist"; sourceTree = "<group>"; };
+		8E74BFC21302D8D100E20061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E74BFC41302D8D100E20061 /* HSCalDAVLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSCalDAVLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		8E74BFC51302D8D100E20061 /* HSCalDAVLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCalDAVLibTests.h; sourceTree = "<group>"; };
+		8E74BFC71302D8D100E20061 /* HSCalDAVLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCalDAVLibTests.m; sourceTree = "<group>"; };
+		8EC275DC1302DBD50081ED97 /* HSCalDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalDAV.h; sourceTree = "<group>"; };
+		8EC275DD1302DBD50081ED97 /* HSCalDAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalDAV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2AAC07C0554694100DB518D /* Frameworks */ = {
+		8E74BFA51302D8D100E20061 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AAC088055469A000DB518D /* Cocoa.framework in Frameworks */,
+				8E74BFAC1302D8D100E20061 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E74BFB51302D8D100E20061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74BFBA1302D8D100E20061 /* Cocoa.framework in Frameworks */,
+				8E74BFBD1302D8D100E20061 /* libHSCalDAVLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		034768DFFF38A50411DB9C8B /* Products */ = {
+		8E74BF9D1302D8D100E20061 = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libHSCalDav.a */,
+				8E74BFB11302D8D100E20061 /* HSCalDAVLib */,
+				8E74BFBE1302D8D100E20061 /* HSCalDAVLibTests */,
+				8E74BFAA1302D8D100E20061 /* Frameworks */,
+				8E74BFA91302D8D100E20061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E74BFA91302D8D100E20061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E74BFA81302D8D100E20061 /* libHSCalDAVLib.a */,
+				8E74BFB91302D8D100E20061 /* HSCalDAVLibTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0867D691FE84028FC02AAC07 /* HSCalDavLib */ = {
+		8E74BFAA1302D8D100E20061 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08FB77AEFE84172EC02AAC07 /* Classes */,
-				32C88DFF0371C24200C91783 /* Other Sources */,
-				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
-				034768DFFF38A50411DB9C8B /* Products */,
+				8E74BFAB1302D8D100E20061 /* Cocoa.framework */,
+				8E74BFAD1302D8D100E20061 /* Other Frameworks */,
 			);
-			name = HSCalDavLib;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+		8E74BFAD1302D8D100E20061 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
-				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
-			);
-			name = "External Frameworks and Libraries";
-			sourceTree = "<group>";
-		};
-		08FB77AEFE84172EC02AAC07 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8EBAE7DE12A5A4B400960082 /* HSCalDav.h */,
-				8EBAE7DF12A5A4B400960082 /* HSCalDav.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
-		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
-				D2F7E8BE07B2D77200F64583 /* CoreData.framework */,
-				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				8E74BFAE1302D8D100E20061 /* AppKit.framework */,
+				8E74BFAF1302D8D100E20061 /* CoreData.framework */,
+				8E74BFB01302D8D100E20061 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		32C88DFF0371C24200C91783 /* Other Sources */ = {
+		8E74BFB11302D8D100E20061 /* HSCalDAVLib */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF5E0370ADEE00C91783 /* HSCalDavLib_Prefix.pch */,
+				8E74BFD11302D8DE00E20061 /* Classes */,
+				8E74BFB21302D8D100E20061 /* Supporting Files */,
 			);
-			name = "Other Sources";
+			path = HSCalDAVLib;
+			sourceTree = "<group>";
+		};
+		8E74BFB21302D8D100E20061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E74BFB31302D8D100E20061 /* HSCalDAVLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E74BFBE1302D8D100E20061 /* HSCalDAVLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E74BFC51302D8D100E20061 /* HSCalDAVLibTests.h */,
+				8E74BFC71302D8D100E20061 /* HSCalDAVLibTests.m */,
+				8E74BFBF1302D8D100E20061 /* Supporting Files */,
+			);
+			path = HSCalDAVLibTests;
+			sourceTree = "<group>";
+		};
+		8E74BFBF1302D8D100E20061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E74BFC01302D8D100E20061 /* HSCalDAVLibTests-Info.plist */,
+				8E74BFC11302D8D100E20061 /* InfoPlist.strings */,
+				8E74BFC41302D8D100E20061 /* HSCalDAVLibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E74BFD11302D8DE00E20061 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8EC275DC1302DBD50081ED97 /* HSCalDAV.h */,
+				8EC275DD1302DBD50081ED97 /* HSCalDAV.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D2AAC07A0554694100DB518D /* Headers */ = {
+		8E74BFA61302D8D100E20061 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBAE7E012A5A4B400960082 /* HSCalDav.h in Headers */,
+				8EC275DE1302DBD50081ED97 /* HSCalDAV.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* HSCalDavLib */ = {
+		8E74BFA71302D8D100E20061 /* HSCalDAVLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "HSCalDavLib" */;
+			buildConfigurationList = 8E74BFCB1302D8D100E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVLib" */;
 			buildPhases = (
-				D2AAC07A0554694100DB518D /* Headers */,
-				D2AAC07B0554694100DB518D /* Sources */,
-				D2AAC07C0554694100DB518D /* Frameworks */,
+				8E74BFA41302D8D100E20061 /* Sources */,
+				8E74BFA51302D8D100E20061 /* Frameworks */,
+				8E74BFA61302D8D100E20061 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HSCalDavLib;
-			productName = HSCalDavLib;
-			productReference = D2AAC07E0554694100DB518D /* libHSCalDav.a */;
+			name = HSCalDAVLib;
+			productName = HSCalDAVLib;
+			productReference = 8E74BFA81302D8D100E20061 /* libHSCalDAVLib.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		8E74BFB81302D8D100E20061 /* HSCalDAVLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E74BFCE1302D8D100E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVLibTests" */;
+			buildPhases = (
+				8E74BFB41302D8D100E20061 /* Sources */,
+				8E74BFB51302D8D100E20061 /* Frameworks */,
+				8E74BFB61302D8D100E20061 /* Resources */,
+				8E74BFB71302D8D100E20061 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E74BFBC1302D8D100E20061 /* PBXTargetDependency */,
+			);
+			name = HSCalDAVLibTests;
+			productName = HSCalDAVLibTests;
+			productReference = 8E74BFB91302D8D100E20061 /* HSCalDAVLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0867D690FE84028FC02AAC07 /* Project object */ = {
+		8E74BF9F1302D8D100E20061 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "HSCalDavLib" */;
-			compatibilityVersion = "Xcode 3.1";
+			attributes = {
+				ORGANIZATIONNAME = "Moki Networks";
+			};
+			buildConfigurationList = 8E74BFA21302D8D100E20061 /* Build configuration list for PBXProject "HSCalDAVLib" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
-			hasScannedForEncodings = 1;
+			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
 			);
-			mainGroup = 0867D691FE84028FC02AAC07 /* HSCalDavLib */;
-			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			mainGroup = 8E74BF9D1302D8D100E20061;
+			productRefGroup = 8E74BFA91302D8D100E20061 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* HSCalDavLib */,
+				8E74BFA71302D8D100E20061 /* HSCalDAVLib */,
+				8E74BFB81302D8D100E20061 /* HSCalDAVLibTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8E74BFB61302D8D100E20061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74BFC31302D8D100E20061 /* InfoPlist.strings in Resources */,
+				8E74BFC61302D8D100E20061 /* HSCalDAVLibTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E74BFB71302D8D100E20061 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D2AAC07B0554694100DB518D /* Sources */ = {
+		8E74BFA41302D8D100E20061 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBAE7E112A5A4B400960082 /* HSCalDav.m in Sources */,
+				8EC275DF1302DBD50081ED97 /* HSCalDAV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E74BFB41302D8D100E20061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74BFC81302D8D100E20061 /* HSCalDAVLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E74BFBC1302D8D100E20061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E74BFA71302D8D100E20061 /* HSCalDAVLib */;
+			targetProxy = 8E74BFBB1302D8D100E20061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E74BFC11302D8D100E20061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E74BFC21302D8D100E20061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		1DEB921F08733DC00010E9CD /* Debug */ = {
+		8E74BFC91302D8D100E20061 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = HSCalDavLib_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = HSCalDav;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		1DEB922008733DC00010E9CD /* Release */ = {
+		8E74BFCA1302D8D100E20061 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = HSCalDavLib_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = HSCalDav;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		1DEB922308733DC00010E9CD /* Debug */ = {
+		8E74BFCC1302D8D100E20061 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVLib/HSCalDAVLib-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1DEB922408733DC00010E9CD /* Release */ = {
+		8E74BFCD1302D8D100E20061 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVLib/HSCalDAVLib-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E74BFCF1302D8D100E20061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVLibTests/HSCalDAVLibTests-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVLibTests/HSCalDAVLibTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E74BFD01302D8D100E20061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVLibTests/HSCalDAVLibTests-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVLibTests/HSCalDAVLibTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "HSCalDavLib" */ = {
+		8E74BFA21302D8D100E20061 /* Build configuration list for PBXProject "HSCalDAVLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB921F08733DC00010E9CD /* Debug */,
-				1DEB922008733DC00010E9CD /* Release */,
+				8E74BFC91302D8D100E20061 /* Debug */,
+				8E74BFCA1302D8D100E20061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "HSCalDavLib" */ = {
+		8E74BFCB1302D8D100E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB922308733DC00010E9CD /* Debug */,
-				1DEB922408733DC00010E9CD /* Release */,
+				8E74BFCC1302D8D100E20061 /* Debug */,
+				8E74BFCD1302D8D100E20061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E74BFCE1302D8D100E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74BFCF1302D8D100E20061 /* Debug */,
+				8E74BFD01302D8D100E20061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+	rootObject = 8E74BF9F1302D8D100E20061 /* Project object */;
 }

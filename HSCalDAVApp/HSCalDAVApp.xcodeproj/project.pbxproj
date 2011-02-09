@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E74C0291302DA3200E20061 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74C0281302DA3200E20061 /* Cocoa.framework */; };
+		8E74C0331302DA3200E20061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E74C0311302DA3200E20061 /* InfoPlist.strings */; };
+		8E74C0361302DA3200E20061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74C0351302DA3200E20061 /* main.m */; };
+		8E74C0391302DA3200E20061 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8E74C0371302DA3200E20061 /* Credits.rtf */; };
+		8E74C03C1302DA3200E20061 /* HSCalDAVAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74C03B1302DA3200E20061 /* HSCalDAVAppAppDelegate.m */; };
+		8E74C03F1302DA3200E20061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E74C03D1302DA3200E20061 /* MainMenu.xib */; };
+		8E74C0461302DA3200E20061 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74C0281302DA3200E20061 /* Cocoa.framework */; };
+		8E74C04E1302DA3200E20061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E74C04C1302DA3200E20061 /* InfoPlist.strings */; };
+		8E74C0511302DA3200E20061 /* HSCalDAVAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E74C0501302DA3200E20061 /* HSCalDAVAppTests.h */; };
+		8E74C0531302DA3200E20061 /* HSCalDAVAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74C0521302DA3200E20061 /* HSCalDAVAppTests.m */; };
+		8EC275E21302DDBE0081ED97 /* libHSCalDAVLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC275E11302DDBE0081ED97 /* libHSCalDAVLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E74C0471302DA3200E20061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E74C01B1302DA3200E20061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E74C0231302DA3200E20061;
+			remoteInfo = HSCalDAVApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E74C0241302DA3200E20061 /* HSCalDAVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSCalDAVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E74C0281302DA3200E20061 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8E74C02B1302DA3200E20061 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E74C02C1302DA3200E20061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E74C02D1302DA3200E20061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E74C0301302DA3200E20061 /* HSCalDAVApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HSCalDAVApp-Info.plist"; sourceTree = "<group>"; };
+		8E74C0321302DA3200E20061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E74C0341302DA3200E20061 /* HSCalDAVApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSCalDAVApp-Prefix.pch"; sourceTree = "<group>"; };
+		8E74C0351302DA3200E20061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E74C0381302DA3200E20061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8E74C03A1302DA3200E20061 /* HSCalDAVAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCalDAVAppAppDelegate.h; sourceTree = "<group>"; };
+		8E74C03B1302DA3200E20061 /* HSCalDAVAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCalDAVAppAppDelegate.m; sourceTree = "<group>"; };
+		8E74C03E1302DA3200E20061 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8E74C0451302DA3200E20061 /* HSCalDAVAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSCalDAVAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E74C04B1302DA3200E20061 /* HSCalDAVAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HSCalDAVAppTests-Info.plist"; sourceTree = "<group>"; };
+		8E74C04D1302DA3200E20061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E74C04F1302DA3200E20061 /* HSCalDAVAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSCalDAVAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		8E74C0501302DA3200E20061 /* HSCalDAVAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSCalDAVAppTests.h; sourceTree = "<group>"; };
+		8E74C0521302DA3200E20061 /* HSCalDAVAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCalDAVAppTests.m; sourceTree = "<group>"; };
+		8EC275E11302DDBE0081ED97 /* libHSCalDAVLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHSCalDAVLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC275FE1302E2E00081ED97 /* HSCalDAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSCalDAV.h; path = ../../HSCalDAVLib/HSCalDAVLib/HSCalDAV.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E74C0211302DA3200E20061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC275E21302DDBE0081ED97 /* libHSCalDAVLib.a in Frameworks */,
+				8E74C0291302DA3200E20061 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E74C0411302DA3200E20061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74C0461302DA3200E20061 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E74C0191302DA3200E20061 = {
+			isa = PBXGroup;
+			children = (
+				8E74C02E1302DA3200E20061 /* HSCalDAVApp */,
+				8E74C0491302DA3200E20061 /* HSCalDAVAppTests */,
+				8E74C0271302DA3200E20061 /* Frameworks */,
+				8E74C0251302DA3200E20061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E74C0251302DA3200E20061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E74C0241302DA3200E20061 /* HSCalDAVApp.app */,
+				8E74C0451302DA3200E20061 /* HSCalDAVAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E74C0271302DA3200E20061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC275E11302DDBE0081ED97 /* libHSCalDAVLib.a */,
+				8E74C0281302DA3200E20061 /* Cocoa.framework */,
+				8E74C02A1302DA3200E20061 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E74C02A1302DA3200E20061 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E74C02B1302DA3200E20061 /* AppKit.framework */,
+				8E74C02C1302DA3200E20061 /* CoreData.framework */,
+				8E74C02D1302DA3200E20061 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E74C02E1302DA3200E20061 /* HSCalDAVApp */ = {
+			isa = PBXGroup;
+			children = (
+				8EC275E31302DF9B0081ED97 /* Classes */,
+				8E74C03A1302DA3200E20061 /* HSCalDAVAppAppDelegate.h */,
+				8E74C03B1302DA3200E20061 /* HSCalDAVAppAppDelegate.m */,
+				8E74C03D1302DA3200E20061 /* MainMenu.xib */,
+				8E74C02F1302DA3200E20061 /* Supporting Files */,
+			);
+			path = HSCalDAVApp;
+			sourceTree = "<group>";
+		};
+		8E74C02F1302DA3200E20061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E74C0301302DA3200E20061 /* HSCalDAVApp-Info.plist */,
+				8E74C0311302DA3200E20061 /* InfoPlist.strings */,
+				8E74C0341302DA3200E20061 /* HSCalDAVApp-Prefix.pch */,
+				8E74C0351302DA3200E20061 /* main.m */,
+				8E74C0371302DA3200E20061 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E74C0491302DA3200E20061 /* HSCalDAVAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E74C0501302DA3200E20061 /* HSCalDAVAppTests.h */,
+				8E74C0521302DA3200E20061 /* HSCalDAVAppTests.m */,
+				8E74C04A1302DA3200E20061 /* Supporting Files */,
+			);
+			path = HSCalDAVAppTests;
+			sourceTree = "<group>";
+		};
+		8E74C04A1302DA3200E20061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E74C04B1302DA3200E20061 /* HSCalDAVAppTests-Info.plist */,
+				8E74C04C1302DA3200E20061 /* InfoPlist.strings */,
+				8E74C04F1302DA3200E20061 /* HSCalDAVAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC275E31302DF9B0081ED97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8EC275FD1302E2B10081ED97 /* HSCalDAVLib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8EC275FD1302E2B10081ED97 /* HSCalDAVLib */ = {
+			isa = PBXGroup;
+			children = (
+				8EC275FE1302E2E00081ED97 /* HSCalDAV.h */,
+			);
+			name = HSCalDAVLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E74C0231302DA3200E20061 /* HSCalDAVApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E74C0561302DA3200E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVApp" */;
+			buildPhases = (
+				8E74C0201302DA3200E20061 /* Sources */,
+				8E74C0211302DA3200E20061 /* Frameworks */,
+				8E74C0221302DA3200E20061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSCalDAVApp;
+			productName = HSCalDAVApp;
+			productReference = 8E74C0241302DA3200E20061 /* HSCalDAVApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E74C0441302DA3200E20061 /* HSCalDAVAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E74C0591302DA3200E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVAppTests" */;
+			buildPhases = (
+				8E74C0401302DA3200E20061 /* Sources */,
+				8E74C0411302DA3200E20061 /* Frameworks */,
+				8E74C0421302DA3200E20061 /* Resources */,
+				8E74C0431302DA3200E20061 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E74C0481302DA3200E20061 /* PBXTargetDependency */,
+			);
+			name = HSCalDAVAppTests;
+			productName = HSCalDAVAppTests;
+			productReference = 8E74C0451302DA3200E20061 /* HSCalDAVAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E74C01B1302DA3200E20061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Moki Networks";
+			};
+			buildConfigurationList = 8E74C01E1302DA3200E20061 /* Build configuration list for PBXProject "HSCalDAVApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E74C0191302DA3200E20061;
+			productRefGroup = 8E74C0251302DA3200E20061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E74C0231302DA3200E20061 /* HSCalDAVApp */,
+				8E74C0441302DA3200E20061 /* HSCalDAVAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E74C0221302DA3200E20061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74C0331302DA3200E20061 /* InfoPlist.strings in Resources */,
+				8E74C0391302DA3200E20061 /* Credits.rtf in Resources */,
+				8E74C03F1302DA3200E20061 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E74C0421302DA3200E20061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74C04E1302DA3200E20061 /* InfoPlist.strings in Resources */,
+				8E74C0511302DA3200E20061 /* HSCalDAVAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E74C0431302DA3200E20061 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E74C0201302DA3200E20061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74C0361302DA3200E20061 /* main.m in Sources */,
+				8E74C03C1302DA3200E20061 /* HSCalDAVAppAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E74C0401302DA3200E20061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74C0531302DA3200E20061 /* HSCalDAVAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E74C0481302DA3200E20061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E74C0231302DA3200E20061 /* HSCalDAVApp */;
+			targetProxy = 8E74C0471302DA3200E20061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E74C0311302DA3200E20061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E74C0321302DA3200E20061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E74C0371302DA3200E20061 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E74C0381302DA3200E20061 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8E74C03D1302DA3200E20061 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E74C03E1302DA3200E20061 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8E74C04C1302DA3200E20061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E74C04D1302DA3200E20061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E74C0541302DA3200E20061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E74C0551302DA3200E20061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E74C0571302DA3200E20061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVApp/HSCalDAVApp-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVApp/HSCalDAVApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E74C0581302DA3200E20061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVApp/HSCalDAVApp-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVApp/HSCalDAVApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E74C05A1302DA3200E20061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HSCalDAVApp.app/Contents/MacOS/HSCalDAVApp";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVAppTests/HSCalDAVAppTests-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVAppTests/HSCalDAVAppTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E74C05B1302DA3200E20061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HSCalDAVApp.app/Contents/MacOS/HSCalDAVApp";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCalDAVAppTests/HSCalDAVAppTests-Prefix.pch";
+				INFOPLIST_FILE = "HSCalDAVAppTests/HSCalDAVAppTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E74C01E1302DA3200E20061 /* Build configuration list for PBXProject "HSCalDAVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74C0541302DA3200E20061 /* Debug */,
+				8E74C0551302DA3200E20061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E74C0561302DA3200E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74C0571302DA3200E20061 /* Debug */,
+				8E74C0581302DA3200E20061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E74C0591302DA3200E20061 /* Build configuration list for PBXNativeTarget "HSCalDAVAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74C05A1302DA3200E20061 /* Debug */,
+				8E74C05B1302DA3200E20061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E74C01B1302DA3200E20061 /* Project object */;
+}
